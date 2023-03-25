@@ -32,9 +32,15 @@ h2{
 #myBtn:hover{
  background: black;
 }
-p{
+#intro{
   font-size: 1.2em;
   text-align: center;
+  color: black;
+  line-spacing: 6px;
+}
+#descr{
+  font-size: 1.2em;
+  text-align: left;
   color: black;
   line-spacing: 6px;
 }
@@ -153,9 +159,9 @@ a{
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
   border-radius: 30%;
 }
-#social1{color: rgb(0, 180, 230);}
-#social2{color: rgb(0, 180, 230);}
-#social3{color: rgb(0, 180, 230);}
+#social1, #social2, #social3{
+  color: rgb(0, 180, 230);
+}
 
 .container{
   text-transform: capitalize;
@@ -272,7 +278,6 @@ a{
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
   padding: 15px;
   margin: 10px;
-  overflow: scroll;
 }
 
 .flex-item-left {
@@ -289,6 +294,6 @@ a{
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
-    height: 300px;
+    height: 500px;
   }
 }
