@@ -11,7 +11,7 @@ h2{
   font-family: Sofia, sans-serif;
 }
 #grad{
-  background-image: linear-gradient(rgba(179, 255, 179,0), rgba(179, 255, 179,1));
+  background-image: linear-gradient(rgba(179, 255, 179,1), rgba(179, 255, 179,0));
 }
 #myBtn{
  display: none;
