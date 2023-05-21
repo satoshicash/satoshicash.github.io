@@ -1,18 +1,29 @@
 *{
   box-sizing: border-box;
 }
+::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
 body{
   font-size: 100%;
   font-family: monospace, sans-serif;
+  background-color: #212121;
+  color: #a4a4c1;
 }
 h2{
   font-size: 30px;
-  text-shadow: 3px 3px 3px #ababab;
   font-family: Sofia, sans-serif;
 }
-#grad{
-  background-image: linear-gradient(rgba(179, 255, 179,1), rgba(179, 255, 179,0));
-}
+/*#grad{
+  background-image: linear-gradient(to right, rgba(179, 255, 179,0), rgba(179, 255, 179,1));
+}*/
 #myBtn{
  display: none;
  position: fixed;
@@ -21,7 +32,7 @@ h2{
  z-index: 99;
  border: none;
  outline: none;
- background: lightblue;
+ background: rgba(000, 100, 050, 0.2);
  color: white;
  font-weight: bold;
  cursor: pointer;
@@ -32,18 +43,7 @@ h2{
 #myBtn:hover{
  background: black;
 }
-#intro{
-  font-size: 1.2em;
-  text-align: center;
-  color: black;
-  line-spacing: 6px;
-}
-#descr{
-  font-size: 1.2em;
-  text-align: left;
-  color: black;
-  line-spacing: 6px;
-}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -113,14 +113,9 @@ h2{
   margin-left: 80px;
   margin-top: 10px;
 }
-#img3{
-  border-radius: 50%;
-  width: 70px;
-  margin-left: 40px;
-}
+
 header{
   font-size: 1.5em;
-  text-shadow: 3px 3px 3px #ababab;
   font-family: Sofia, sans-serif;
   text-align: center;
 }
@@ -128,21 +123,49 @@ div.header-text{
   text-align: center;
 }
 #about{
-  color: black;
   margin-top:  40px;
   position: relative;
   text-align: center;
 }
+#intro{
+  font-size: 1.2em;
+  text-align: center;
+  line-spacing: 6px;
+}
+#utils{
+  font-size: 1.2em;
+  text-align: left;
+  line-spacing: 6px;
+  display: flex;
+  align-items: center;
+}
+#util{
+ position: relative;
+ margin: 20px;
+ border: 1px solid rgb(0, 0, 0, 0.2);
+ padding: 15px;
+ border-radius: 5px;
+}
+.anim{
+ animation: slide 10s infinite alternate linear;
+}
+@keyframes slide{
+ 0% {left: 0;}
+ 25% {left: 25%;}
+ 50% {left: 50%;}
+ 75% {left: 75%;}
+ 100% {right: 100%;}
+}
+.utils.scroll{
+  overflow: scroll;
+}
 footer{
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1));
-  color: white;
   margin-top:  40px;
   position: relative;
   text-align: center;
 }
 summary{
   width: 40%; 
-  color: lightgrey; 
   margin:auto;
   font-size: 1.2em;
 }
@@ -150,15 +173,17 @@ a{
   text-decoration: none;
 }
 
-.fa-telegram,.fa-discord,.fa-twitter{
-  background-color: white;
+.fa-telegram, .fa-discord, .fa-twitter{
+  background-color: transparent;
   margin: 20px;
-  font-size: 4em;
+  font-size: 2em;
   padding: 10px;
-  width: 80px;
+  width: 40px;
+  height: 40px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 30%;
+  border-radius: 50%;
 }
+
 #social1, #social2, #social3{
   color: rgb(0, 180, 230);
 }
@@ -192,7 +217,7 @@ a{
 .container .video-list{
   background: #fff;
   border-radius: 5px;
-  height: 400px;
+  height: 520px;
   overflow-y: scroll;
 }
 .container .video-list::-webkit-scrollbar{
@@ -248,15 +273,14 @@ a{
   padding: 10px;
  }
 }
-.links{
+.card{
  border-radius: 5px;
  height: 100%;
  width: 100%;
- background: #fff;
+ background: #1f1f2e;
  padding: 15px;
- margin: 10px;
+ margin: 20px;
  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
- font-family: verdana, sans-serif;
  border: 1px solid rgba(0, 0, 0, 0.2);
  text-align: center;
 }
