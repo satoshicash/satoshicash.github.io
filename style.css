@@ -22,8 +22,8 @@ body{
   max-width: 600px;
   margin: auto;
    }
-#utils, #util{
-  max-width: 500px;
+#utils{
+  max-width: 600px;
   margin: auto;
   }
 }
@@ -141,14 +141,12 @@ div.header-text{
 }
 #utils{
   font-size: 1.2em;
-  text-align: left;
-  line-spacing: 6px;
   display: flex;
   align-items: center;
 }
 #util{
  position: relative;
- margin: 20px;
+ margin: auto;
  border: 1px solid rgb(0, 0, 0, 0.2);
  padding: 15px;
  border-radius: 5px;
