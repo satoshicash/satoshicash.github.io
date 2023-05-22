@@ -22,6 +22,10 @@ body{
   max-width: 600px;
   margin: auto;
    }
+#utils, #util{
+  max-width: 600px;
+  margin: auto;
+  }
 }
 h2{
   font-size: 30px;
