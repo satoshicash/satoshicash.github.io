@@ -139,10 +139,9 @@ div.header-text{
   text-align: center;
   line-spacing: 6px;
 }
-#utils{
-  font-size: 1.2em;
-  text-align: left;
+#utils {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
