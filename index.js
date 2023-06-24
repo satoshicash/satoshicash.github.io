@@ -45,8 +45,8 @@ listVideo.forEach(video =>{
   };
  };
 });
-var xValues = ["Community", "Liquidity", "Team", "Treasury", "Marketing"];
-var yValues = [60, 20, 10, 5, 5];
+var xValues = ["Private sale", "Liquidity", "Team", "Marketing", "Burn"];
+var yValues = [30, 20, 20, 10, 20];
 var barColors = [
   "#b91d47",
   "#00aba9",
