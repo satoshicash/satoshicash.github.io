@@ -40,6 +40,7 @@ div{
  border: none;
  border-radius: 15px;
  box-shadow: 0 9px #999;
+ margin: 20px;
 }
 .button:hover {background-color: #3e8e41}
 .button:active {
