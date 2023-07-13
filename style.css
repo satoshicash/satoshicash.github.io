@@ -16,6 +16,7 @@ body{
   font-family: monospace, sans-serif;
   background-color: #212121;
   color: #a4a4c1;
+  line-height: 1.8px;
 }
 @media screen and (max-width: 600px) {
 body{
