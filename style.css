@@ -315,7 +315,7 @@ a{
 .flex-container {
   display: flex;
   flex-direction: row;
-  height: 200px;
+  height: 100%;
   text-align: center;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
   padding: 15px;
