@@ -17,7 +17,6 @@ body{
   background: linear-gradient(rgba(0,0,0,0.82), rgba(0,0,0,0.82)), url(pictures/satoshi.jpg) no-repeat center/cover;
   color: #a4a4c1;
   line-height: 1.8;
-  Margin-right: 20px;
 }
 @media screen and (max-width: 600px) {
 body{
@@ -302,6 +301,7 @@ a{
  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
  border: 1px solid rgba(0, 0, 0, 0.2);
  text-align: center;
+ Margin-right: 30px;
 }
 .link{
  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
